@@ -12,4 +12,8 @@ There needs to be a way to get materials and people from Saddleback mountain to 
 - Lazer cutted wood or acrylic
 - Bolts and nuts (size TBD)
 ### Deliverables:
-- [ ] All sketchs and engineering drawings of product (completed)
+- [ ] All sketches and engineering drawings of final product (completed)
+- [ ] All sketches and engineering drawings of parts (completed)
+- [ ] Working prototype
+- [ ] Presentation of final product (working)
+- [ ] Detailed daily notes in engineering journal
