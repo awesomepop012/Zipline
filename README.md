@@ -17,6 +17,7 @@ There needs to be a way to get materials and people from Saddleback mountain to 
 - [ ] Working prototype
 - [ ] Presentation of final product (working)
 - [ ] Detailed daily notes in engineering journal
-### Just for Miles:
+### Just for Miles (on linux terminal):
 - First use ```git clone https://github.com/awesomepop012/Zipline.git``` make sure that you are in a directory that you want to clone it into. It will automatically create a __Zipline__ directory
-- If you want to commit something to the repository (an idea etc.)
+- __IMPORTANT!__ everytime before you add anything to the folder, run ```git pull origin master``` this will retrieve the most updated code from github. If you modify a file or add one to the folder first, this command may result in an error. 
+- If you want to commit something to the repository (an idea etc.) first use ```git add .```, this command will prepare the files to be committed. Next use ```git commit -m "{Your message}"```, this command will commit the files that you put in the *Zipline* folder or its subdirectories, to the git repository __on your computer!__ It won't push them to the repository hosted at github.com. The message will usually be what you updated or created, ex: *"Updated README.md."* Finally, after your done with what you're doing and have to leave the computer, use the command: ```git push origin master``` this command will push all of your commits that you made to github.com. __Make sure that you use add and commit before you use push!__
