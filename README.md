@@ -17,3 +17,6 @@ There needs to be a way to get materials and people from Saddleback mountain to 
 - [ ] Working prototype
 - [ ] Presentation of final product (working)
 - [ ] Detailed daily notes in engineering journal
+### Just for Miles:
+- First use ```git clone https://github.com/awesomepop012/Zipline.git``` make sure that you are in a directory that you want to clone it into. It will automatically create a __Zipline__ directory
+- If you want to commit something to the repository (an idea etc.)
