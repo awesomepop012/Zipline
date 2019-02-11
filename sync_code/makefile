@@ -1,38 +1,38 @@
 ############ COMPILE ############
-CXX := g++
-CCX := #-Wall #-std=c++11
+CC := g++
+CC_FLAGS := -Wall -std=c++17
 ############ FILES ############
-BIN := sync
+BIN := zipline
 SRC := $(wildcard ./src/*.cpp)
 OBJ := $(SRC:./src/%.cpp=./obj/%.o)
 
-INC_P := #-I./include
+INC_P := -I./include
 ############ FUNCTIONS ############
 .PHONY: all clean clean_all dirs debug
 all: clean ../$(BIN)
 
 ../$(BIN): $(OBJ)
-	$(CXX) $< -o $@
+	$(CXX) $^ -o $@
 
 ./obj/%.o: ./src/%.cpp
-	$(CXX) $(CCX) $(INC_P) $< -o $@
+	$(CXX) $(CCX) $(INC_P) -c $< -o $@
 
 clean:
-	@ECHO "Deleting object files..."
+	@echo "Deleting object files..."
 	@$(RM) $(OBJ)
-	@ECHO "Deleting $(BIN)..."
+	@echo "Deleting $(BIN)..."
 	@$(RM) ../$(BIN)
 clean_all: clean
 	@ECHO "Deleting object folder..."
 	@$(RMDIR) obj
 
 dirs:
-	@if [ ! -d "src" ]; then mkdir "src"; ECHO "Creating src directory..."; fi
-	@if [ ! -d "obj" ]; then mkdir "obj"; ECHO "Creating obj directory..."; fi
-	@if [ ! -d "include" ]; then mkdir "include"; ECHO "Creating include directory..."; fi
+	@if [ ! -d "src" ]; then mkdir "src"; echo "Creating src directory..."; fi
+	@if [ ! -d "obj" ]; then mkdir "obj"; echo "Creating obj directory..."; fi
+	@if [ ! -d "include" ]; then mkdir "include"; echo "Creating include directory..."; fi
 
 ############ DEBUGGING ############
 debug:
-	@ECHO 'Project: $(BIN)'
-	@ECHO 'Source: $(SRC)'
-	@ECHO 'Objects: $(OBJ)'
+	@echo 'Project: $(BIN)'
+	@echo 'Source: $(SRC)'
+	@echo 'Objects: $(OBJ)'

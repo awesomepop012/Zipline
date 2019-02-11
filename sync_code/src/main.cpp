@@ -1,12 +1,12 @@
-#include <iostream>
-#include <string>
+#include "App.hpp"
 
-int main()
+std::vector<int> range(int num);
+
+int main(int argc, const char *argv[])
 {
-  using namespace std;
+  App* application = new App(argc, argv);
 
-  cout << "Thank you for choosing Sync";
-  //wcout << (wchar_t)0xA9 << "!"  << std::endl;
+  application->Start();
 
   return 0;
 }
