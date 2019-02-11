@@ -82,7 +82,13 @@ void App::idea()
 
 void App::commit()
 {
-
+  using namespace std;
+  const char message[50];
+  cout << "What did you do? ";
+  cin << message;
+  system("git add .");
+  system("git commit -m \"" + message + "\"");
+  system("git push origin master");
 }
 
 void App::help()
