@@ -12,6 +12,7 @@
 #include <algorithm>
 #include <iostream>
 #include <stdexcept>
+#include <cstdlib>
 
 class App final
 {
