@@ -6,7 +6,7 @@ There needs to be a way to get materials and people from Saddleback mountain to 
 - [ ] Must stay on line (Wind factor/Mr. Bantle shaking rope may apply.
 - [ ] The bearings must be moving.
 - [ ] There must be an arm or bracket that hangs down to connect to whatever you're transporting.
-- [ ] The line is 1/16 (0.0625) inches.
+- [ ] The line is 3/16 (0.1875) inches.
 ### Materials:
 - 3D printed parts (ABS plastic)
 - Laser cutted wood or acrylic
