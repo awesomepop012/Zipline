@@ -17,6 +17,12 @@ There needs to be a way to get materials and people from Saddleback mountain to 
 - [ ] Working prototype
 - [ ] Presentation of final product (working)
 - [ ] Detailed daily notes in engineering journal
+- [ ] Orthographic and isometric for EACH part, fully dimensioned
+- [ ] Orthographic with isometric view of assembled project
+- [ ] Exploded view with parts list and balloons
+- [ ] Detailed view of the pulley wheel contour
+- [ ] Get it approved and turn it in
+- [ ] One drawing, tons of sheets
 ### Allowance:
 - ```The amount of space between two objects```
 - Good allowance would be ±0.001
